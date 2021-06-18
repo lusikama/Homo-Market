@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée
+    LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix')
+    format('embedded-opentype'),
+    url('LearningCurve_OT-webfont.woff') format('woff'),
+    url('LearningCurve_OT-webfont.ttf') format('truetype'),
+    url('LearningCurve_OT-webfont.svg#LearningCurveProRegular')
+    format('svg');
+    }
+    h1 /* Utilisation de la police qu'on vient de définir sur les
+    titres */
+    {
+    font-family: 'LearningCurveProRegular', serif;
+    }
+    
+
+body{
+    background-color:rgb(3, 30, 70);
+    font-family:calivri;
+    
+}
+
+header{
+    background-color: rgb(10, 88, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+th{
+    border:1px #777 solid;
+    width: 800px;
+    background-color: #69f;
+}
+
+a{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding:10px;
+    background-color:#69f;
+    color: white;   
+}
+
+nav a:hover{
+    color: black;
+}
+
+.leftbox iframe{
+    width: 100%;
+    height: auto;
+}
+
+.div3 iframe{
+    width: 100%;
+    height: auto;
+
+}
+
+.leftbox img{
+    width: 100%;
+    height: auto;
+}
+
+div#content div h1, h2, h3, b{
+    margin: 10px;
+}
+
+div#content div{
+    display: inline-block;
+    width: 50%;
+    
+}
+
+div#content div.leftbox{
+    vertical-align: top;
+    width: 64%;
+    height: auto;
+    max-width: 1000px;
+    min-width: 500px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border: 2px midnightblue solid;
+}
+
+div#content div.leftbox h1, p{
+}
